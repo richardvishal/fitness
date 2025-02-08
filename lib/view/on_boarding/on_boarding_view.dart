@@ -74,7 +74,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
                   height: 70,
                   child: CircularProgressIndicator(
                     color: TColor.primaryColor1,
-                    value: selectedPage / 4,
+                    value: (selectedPage + 1) / 4,
                     strokeWidth: 2,
                   ),
                 ),
